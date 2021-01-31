@@ -14,6 +14,8 @@ You can use the builtin maven in your IDE or use the maven wrapper provided in t
 
 1. Build the application jar
 2. Use Spring Boot's builtin support for generating OCI compliant docker images using build packs.
+   
+You can find a good starting guide on https://spring.io/guides/gs/spring-boot-docker/.
 
 Note that the default uses paketo (https://paketo.io/) base builder image.
 
