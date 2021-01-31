@@ -76,6 +76,7 @@ $SERVICE_BINDING_ROOT
 ```
 
 We'll be using a service binding of type `ca-certificates` that maps any certificate in the same directory.
+See https://github.com/paketo-buildpacks/ca-certificates to figure out why this works in a paketo based buildpack.
 
 The `SERVICE_BINDING_ROOT` environment variable can be chosen as you want, but `/bindings` seems like a good default.
 You just have to make sure to mount your secrets in the same directory tree that you chose.
